@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+.nav{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 7rem;
+}
+
+.logonav{
+    padding-top: 0.2rem;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;   
+
+}
+
+.nav li{
+    color: #52DF55;
+    margin: 1rem;
+    list-style-type: none;
+    font-family: 'Monoton', cursive;
+    cursor: pointer;
+}
+
+.nav li:hover{
+    color: #FFFF;
+    
+}
+
+.menuHamburguer{
+    display: none;
+    flex-direction: column;
+    margin-right: 1rem;
+}
+
+.menuItem{
+    width: 35px;
+    height: 4px;
+    margin: 2px 0;
+    background-color: #52DF55;
+}
+
+@media only screen and (max-width: 850px) {
+    .menuHamburguer{
+        display: flex;
+    }
+
+    .links{
+        display: none;
+    }
+
+    .links.active{
+        position: absolute;
+        top: 7rem;
+        width: 100vw;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links.active:hover{
+       color: white;
+    }
+
+}
