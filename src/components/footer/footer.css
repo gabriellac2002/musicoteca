@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+.container{
+    background-color: black;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fraseEfeito{
+    color: #52DF55;
+    font-family: 'Monoton', cursive;
+    font-size: 1.5rem;
+}
+
+.contatos{
+    color: #52DF55;
+    font-family: 'Monoton', cursive;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+}
+
+.icones{
+    display: flex;
+    align-items: center;
+    margin:0.5rem;
+}
+
+.icones img{
+    margin: 0.5rem;
+}
+
+@media only screen and (max-width: 850px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 30rem;
+    }
+    
+
+
+    .fraseEfeito{
+        font-size: 1rem;
+        text-align: center;
+    }
+}
