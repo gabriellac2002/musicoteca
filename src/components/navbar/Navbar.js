@@ -14,9 +14,8 @@ function Navbar() {
             </div>
 
             <ul className={active ? "links active" : "links"}>
+                <li><a href="#"></a>Home</li>
                 <li><a href="#"></a>Membros</li>
-                <li><a href="#"></a>Sobre nós</li>
-                <li><a href="#"></a>Contatos</li>
                 <li><a href="#"></a>Login</li>
 
             </ul>

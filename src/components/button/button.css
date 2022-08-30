@@ -1,0 +1,16 @@
+button{
+    border:none;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 2rem;
+    font-family: 'Monoton', cursive;
+    color: white;
+    background-color: #52DF55;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+button:hover{
+    color: #52DF55;
+    background-color: white;
+}

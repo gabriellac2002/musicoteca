@@ -1,0 +1,19 @@
+input{
+    margin-left: 1rem;
+    width: 40rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+@media only screen and (max-width: 830px){
+    input{
+        width: 30rem;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    input{
+        width: 20rem;
+    }
+}
