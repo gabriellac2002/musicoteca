@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap');
+
+.label{
+    font-family: 'Monoton', cursive;
+    color: #52DF55;
+}
+
+.card{
+    background-color: black;
+    width: 20rem;
+    height: 20rem;
+    justify-content: space-between; 
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
+
+.resp{
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    margin-left: 1rem;
+}
+
+.container_info{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+}

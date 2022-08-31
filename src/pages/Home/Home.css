@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.Home{
+  background-color: #0a0a0a;
+}
+
+.containerImgTexto{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containerTextos{
+  width: 40rem;
+  margin-right: 2rem;
+}
+
+.titulo{
+  font-family: 'Monoton', cursive;
+  color: #52DF55;
+  font-size: 2rem;
+}
+
+.descricao{
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  
+}
+
+.containerImgTexto img{
+  margin: 1.5rem;
+}
+
+.containerServicos{
+  margin-top: 2rem;
+  width: 100%;
+  background-color: #52DF55;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tituloServ{
+  color: white;
+  font-family: 'Monoton', cursive;
+  font-size: 1.5rem;
+}
+
+.container_servs{
+  display: flex;
+  justify-content: space-between;
+}
+
+.servico{
+  width: 15rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: 'Monoton', cursive;
+  text-align: center;
+  align-items: center;
+}
+
+.servico img{
+  margin: 1rem;
+}
+
+.contato{
+  margin-top: 2rem;
+  color: #52DF55;
+  font-family: 'Monoton', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contato p{
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.inputs{
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1030px){
+  .container_servs{
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 830px){
+
+  .containerImgTexto{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .containerImgTexto img{
+    width: 250px;
+    height: 250px;
+  }
+
+  .containerTextos{
+    width: 350px;
+    height: 10rem;
+    padding-left: 1.5rem;
+  }
+
+  .titulo{
+    font-size: 1rem;
+    
+  }
+
+  .descricao{
+    font-size: 0.75rem;
+  }
+
+  .inputs{
+    display: flex;
+    flex-direction: column;
+  }
+}

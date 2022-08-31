@@ -1,6 +1,7 @@
 import './navbar.css';
 import LogoNav from '../../img/logonav.svg';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
 
@@ -14,9 +15,9 @@ function Navbar() {
             </div>
 
             <ul className={active ? "links active" : "links"}>
-                <li><a href="#"></a>Home</li>
-                <li><a href="#"></a>Membros</li>
-                <li><a href="#"></a>Login</li>
+                <li><Link to="/" style={{ textDecoration: 'none', color: "#52DF55" }}>Home</Link></li>
+                <li><Link to="/members" style={{ textDecoration: 'none', color: "#52DF55" }}>Membros</Link></li>
+                <li><Link to="/login" style={{ textDecoration: 'none', color: "#52DF55" }}>Login</Link></li>
 
             </ul>
 

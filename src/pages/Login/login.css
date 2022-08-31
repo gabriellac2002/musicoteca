@@ -1,0 +1,28 @@
+.container_login{
+    background-color: #0a0a0a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_login{
+    color: #52DF55;
+    font-family: 'Monoton', cursive;
+    background-color: black;
+    border-radius: 2rem;
+    height: 20rem;
+    width: 50rem;
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs{
+    margin: 2rem;
+}
